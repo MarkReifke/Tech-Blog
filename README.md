@@ -1,1 +1,3 @@
 # Tech-Blog
+
+Was told we had all week to turn this one in so dont know how its late... we were told this by Tucker so this is not late...
