@@ -1,0 +1,26 @@
+[
+    {
+       "name": "John",
+       "post": "Im having so much fun."
+    },
+
+    {
+       "name": "Mark",
+       "post": "I dont know what im doing."
+    },
+
+    {
+        "name": "Ted",
+        "post": "I feel like a failure."
+    },
+
+    {
+       "name": "Jordan",
+       "post": "Are we done yet?."
+    },
+
+    {
+        "name": "Greg",
+        "post": "I should of looked around for other places first."
+    }
+ ]

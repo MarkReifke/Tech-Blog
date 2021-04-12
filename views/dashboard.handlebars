@@ -1,0 +1,17 @@
+{{#each users as |user| }}
+<div class="row align-center mb-5">
+  <div class="form-group">
+
+  <h2 id="post">{{user.name}}:</h2> 
+   <div id="title">
+      <input class="submit-title" type="title" id="submit-title"/>
+   </div>
+
+     <textarea class="form-input" maxlength="500"></textarea>
+     <button id="subpost" class="btn btn-primary" type="submit">Reply</button>
+  </div>
+
+</div>
+{{/each}}
+
+<script src="/js/dashboard.js"></script>

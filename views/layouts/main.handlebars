@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="display-flex justify-space-between align-center p-2">
+    <div class="containerOne">
+    <h1>
+      Tech Blog
+    </h1>
+     </div>
+    <div class="containerTwo">
+    <nav>
+   <h3><a href="/">Home</a></h3>
+    </nav>
+    </div>
+
+<div class="containerThree">
+    <nav>
+   <h3><a href="/dashboard">Dashboard</a></h3>
+  </nav>
+  </div>
+  
+  {{#if logged_out}}
+    <nav>
+      <button class="btn" id="logout">login</button>
+    </nav>
+    {{/if}}
+  
+  
+    {{#if logged_in}}
+    <nav>
+      <button class="btn" id="logout">logout</button>
+    </nav>
+    {{/if}}
+  </header>
+  <main class="container container-fluid mt-5">
+    {{{ body }}}
+  </main>
+  <footer>
+      
+  </footer>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
